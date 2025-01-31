@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/368bf42be5.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div id="container">
+                <nav>
+                    <img src="" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick = "openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1><SPAN>ANISH REDDY GURUJALA</SPAN></h1>
+                    <p>FULL STACK DEVELOPER</p>
+                    
+                </div>
+            </div>
+        </div>
+     <!-----about--->
+
+        <div id="about">
+            <div class="container">
+                <!--<div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                        <img src="images/anishny.jpg" width="500px">
+                      </div>
+                      <div class="flip-box-back">
+                        <h2>ABOUT ME</h2>
+                        <p>What an amazing city</p>
+                      </div>
+                    </div>
+                  </div>-->
+                <div class="row">
+                    <div class="about-col-1">
+                        <h1 class="sub-title">About me</h1>
+                        <p>I am a <span>Graduate student of Master's in Computer Science</span> at William Jessup University, with a focus on <span>full-stack development</span>. Through both academic coursework and hands-on projects, I have developed a strong foundation in a variety of technologies, including <span>React, Python, Django, Java, and SQL/NoSQL databases</span>. My technical skills are complemented by my ability to tackle complex problems, collaborate effectively with teams, and manage time efficiently.</p>
+                       <p> One of my most exciting projects includes a <span> Full-Stack E-Commerce Application</span>, where I developed an end-to-end platform using<span> React </span>  for the front end and <span>Node.js</span> for the back end. I implemented features such as <span>user authentication</span>, <span>product management</span>, and a <span>shopping cart</span> to provide a seamless user experience. I’ve also applied machine learning techniques to create a <span>Predictive Model</span> for housing price analysis and built a <span>Real-Time Event Detection System</span> using deep learning to improve security monitoring in CCTV-surveilled areas.</p>
+                       <p>I am continuously expanding my knowledge through certifications, including <span>Python Programming, CSS and HTML essential training and Certified Web Developer (CIW)</span>, and I am committed to leveraging my skills to develop impactful software solutions. With a passion for coding, problem-solving, and innovation, I am eager to contribute to projects that push the boundaries of technology and create real-world impact.
+                       </p>
+                       <div class="tab-tittles">
+                        <p class="tab-links active-link"onclick="opentab('projects')">projects</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="projects">
+                        <ul>
+                            <li><span>Full Stack E-Commerce Application</span><br>Developed a complete e-commerce platform using React for the front end and Node.js with Express for the back end, implementing features such as user authentication, product management, and a shopping cart.</li>
+                            <li><span>Predictive Modeling</span><br>Created a machine learning model to analyze California housing prices, demonstrating strong analytical skills and application of data science techniques.</li>
+                            <li><span>Real-Time Event Detection System</span><br>Built a deep learning system for real-time detection of unexpected events in CCTV-monitored areas, enhancing security measures.</li>
+                        </ul>
+                       </div>
+                        <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021 - 2023</span><br>Associate manager to Production Department</li>
+                        </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>Masters in computer science from William jessup university.</li>
+                            <li><span>2021</span><br>Batchlors in computer science from DRK Institute of Technology.</li>
+                        </ul>
+                       </div>
+                      
+
+                    </div>
+                    <div class="about-col-2">
+                        <img src="images/anishnyc.jpg" width="30%">
+                    </div>
+                    <div class="about-col-3"></div>
+                </div>
+            </div>
+        </div>
+        <!--------------------services--------------------->
+       <!--- <div id="services">
+            <div class="container">
+
+            </div>
+        </div>-->
+        <!---------------------portfolio------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/shooping.jpg">
+                        <div class="layer">
+                            <h3>Full Stack E-Commerce Applicatio</h3>
+                            <p>Developed a complete e-commerce platform using React for the front end and Node.js with Express for the back end, implementing features such as user authentication, product management, and a shopping cart.</p>
+                            <a href="#"><i class="fa-solid fa-paperclip"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/pred.jpg">
+                        <div class="layer">
+                            <h3>Predictive Modeling</h3>
+                            <p>Created a machine learning model to analyze California housing prices, demonstrating strong analytical skills and application of data science techniques.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/rted.jpeg">
+                        <div class="layer">
+                            <h3>Real-Time Event Detection System</h3>
+                            <p>Built a deep learning system for real-time detection of unexpected events in CCTV-monitored areas, enhancing security measures.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <!----------------------contact--------------->
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title"> Contact Me</h1>
+                        <p><i class="fa-solid fa-user"></i>anish28029@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+1 (872)218-5854</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/anish-reddy-gurujala-7a4532224/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/anish-reddy-gurujala-7a4532224/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="images/anish resume1.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2025 Anish Reddy Gurujala </p>
+            </div>
+        </div>
+       <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+       </script> 
+       <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right= "0";
+        }
+        function closemenu(){
+            sidemeu.style.right= "-250px";
+        }
+       </script>
+       <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxkVB8eDP315EMKfeqxRyYKGyamGkBbk0jSSLFjlayENQjkrz0mrlhTLJCoac7nxieN/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML=" Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html> 
